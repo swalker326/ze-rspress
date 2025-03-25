@@ -1,0 +1,21 @@
+{
+  "name": "ze-rspress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rspress build",
+    "check": "biome check --write",
+    "dev": "rspress dev",
+    "format": "biome format --write",
+    "preview": "rspress preview"
+  },
+  "dependencies": {
+    "@rsbuild/shared": "^0.7.10",
+    "rspress": "^1.40.2",
+    "zephyr-rspack-plugin": "^0.0.36"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^18.11.17"
+  }
+}
